@@ -3,12 +3,12 @@ import Layout from '@theme/Layout';
 import styles from './promo.module.css';
 
 const shots = [
-  { src: '/sc/image3.png', alt: '界面截图 1', className: styles.cardA },
-  { src: '/sc/image2.png', alt: '界面截图 2', className: styles.cardB },
-  { src: '/sc/image1.png', alt: '界面截图 3', className: styles.cardC },
-  { src: '/sc/image6.png', alt: '界面截图 4', className: styles.cardD },
-  { src: '/sc/image5.png', alt: '界面截图 5', className: styles.cardE },
-  { src: '/sc/image4.png', alt: '界面截图 6', className: styles.cardF },
+  { src: 'sc/image3.png', alt: 'sc 1', className: styles.cardA },
+  { src: 'sc/image2.png', alt: 'sc 2', className: styles.cardB },
+  { src: 'sc/image1.png', alt: 'sc 3', className: styles.cardC },
+  { src: 'sc/image6.png', alt: 'sc 4', className: styles.cardD },
+  { src: 'sc/image5.png', alt: 'sc 5', className: styles.cardE },
+  { src: 'sc/image4.png', alt: 'sc 6', className: styles.cardF },
 ];
 
 export default function PromoPage() {
