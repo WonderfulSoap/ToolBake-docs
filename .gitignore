@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.react-router/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+app/public/assets/7z
+app/public/assets/ffmpeg
+app/.claude
+backend/tmp
+backend/data-backup
+backend/db-data
+app/public/assets/imagemagick
+db-data
